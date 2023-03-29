@@ -1,0 +1,49 @@
+.post__container {
+    margin: 3px 0;
+    padding: 3px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.post__container:hover {
+    background-color: rgb(244, 244, 244);
+}
+
+.post__header {
+    display: flex;
+}
+
+.post__info {
+    flex: 1;
+}
+
+.post__name {
+    font-weight: bold;
+    font-size: .9em;
+    margin-right: 10px;
+}
+
+.post__handle {
+    color: rgb(168, 168, 168);
+    font-size: .8em;
+}
+
+.post__headerSeparator {
+    margin: 0 5px;
+    color: rgb(168, 168, 168);
+}
+
+.post__timeElapsed {
+    font-size: .8em;
+    color: rgb(119, 119, 119);
+}
+
+.post__body {
+    margin-top: 5px;
+    font-size: .85em;
+}
+
+.post__dots {
+    /* margin-left: auto; */
+    color: grey;
+}

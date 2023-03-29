@@ -1,0 +1,27 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: right;
+    padding-right: 5px;
+    border-right: 1px solid lightgray;
+}
+
+.icon {
+    place-self: flex-end;
+    padding: 10px 0;
+}
+
+.icon__container {
+    position: sticky;
+    top: 0;
+}
+
+.icon__container > .icon {
+    margin-left: 60%;
+    display: flex;
+}
+
+#twitter__icon {
+    color: rgb(0, 162, 255);
+}
